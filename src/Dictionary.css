@@ -1,6 +1,6 @@
 body {
-    background: #fbe0c4;
-    margin: 20px 200px 20px;
+    background: linear-gradient(#fdfcfb, #e2d1c3);
+    margin: 20px 200px 300px;
 }
 
 .Dictionary input {
