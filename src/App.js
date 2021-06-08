@@ -13,9 +13,9 @@ export default function App() {
           <small>
           Coded by {" "}
             <a href="www.linkedin.com/in/kaitlyn-treaster" target="_blank" rel="noreferrer">
-               Kaitlyn Treaster
+               Kaitlyn Treaster {" "}
             </a>
-            and is{" "} 
+            and is {" "} 
             <a href="https://github.com/kaitlyn-treaster/dictionary-project" target="_blank" rel="noreferrer">
             open-sourced on GitHub
             </a>
