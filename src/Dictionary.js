@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Results from "./Results";
+import Photos from "./Photos";
 import "./Dictionary.css";
 
 export default function Dictionary() {
@@ -12,8 +13,8 @@ export default function Dictionary() {
 
     }
 
-    function search(event) {
-        event.preventDefault();
+    function search() {
+        
 
         let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
         axios.get(apiUrl).then(handleResponse);
@@ -33,6 +34,7 @@ export default function Dictionary() {
             </form>
             <br />
             <Results results={results} />
+            <Photos />
             
         </div>
     );
