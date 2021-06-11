@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(#fdfcfb, #e2d1c3);
-    margin: 20px 200px 1000px;
+    margin: 20px 200px 110px;
 }
 
 .Dictionary input {
@@ -32,7 +32,8 @@ h4 {
 }
 
 .row {
-    padding-left: 200px;
+    padding-left: 150px;
+    padding-right: 20px;
 }
 
 .col {
